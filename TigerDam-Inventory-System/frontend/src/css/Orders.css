@@ -1,0 +1,55 @@
+.Orders_Background {
+  background-color: var(--modeBackground);
+  height: auto;
+}
+.Orders_Content {
+  margin: 24px;
+  background-color: transparent;
+}
+.Orders_TopBox {
+  background-color: var(--modeIsland);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px var(--colorTextSelected);
+}
+.Orders_SearchBar {
+  display: block;
+  width: 50%;
+}
+.Orders_SearchBar .label,
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  border: 1px solid var(--colorBackground);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.Orders_Button {
+  background-color: var(--colorBackground);
+}
+.Orders_CreateButton {
+  margin: 10px;
+  float: right;
+  height: 40px;
+  background-color: var(--colorBackground);
+}
+.Order_Modal_Create {
+  width: 80%;
+}
+.Orders_LowFilter {
+  margin: 10px;
+  margin-left: 5px;
+  float: right;
+  height: 38px;
+  width: 65%;
+}
+.Orders_List {
+  background-color: var(--modeIsland);
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px var(--colorTextSelected);
+}
+.ant-card .ant-card-body::before {
+  display: none;
+}

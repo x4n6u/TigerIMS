@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+:root {
+  --modeBackground: #f0f2f5;
+  --modeIsland: white;
+  --modeText: black;
+  --modeTextSelected: ;
+  --modeModule: #b7b7b7;
+  --colorBackground: #fc771c;
+  --colorTextSelected: #fc771c;
+  --colorTextHover: #fc771c;
+}
+
+[thememode="light"] {
+  --modeBackground: #f0f2f5;
+  --modeIsland: white;
+  --modeText: black;
+  --modeTextSelected: ;
+  --modeModule: #b7b7b7;
+}
+
+[thememode="dark"] {
+  --modeBackground: #2a2c2c;
+  --modeIsland: #242525;
+  --modeText: white;
+  --modeTextSelected: ;
+  --modeModule: #242525;
+}
+
+[themecolor="orange"] {
+  --colorBackground: #fc771c;
+  --colorTextSelected: #fc771c;
+  --colorTextHover: #fc771c;
+  --colorBackgroundHover: #d76418;
+}
+[themecolor="red"] {
+  --colorBackground: #fc1c1c;
+  --colorTextSelected: #fc1c1c;
+  --colorTextHover: #fc1c1c;
+  --colorBackgroundHover: #d71818;
+}
+[themecolor="yellow"] {
+  --colorBackground: #fce91c;
+  --colorTextSelected: #fce91c;
+  --colorTextHover: #fce91c;
+  --colorBackgroundHover: #d7ca18;
+}
+[themecolor="green"] {
+  --colorBackground: #45fc1c;
+  --colorTextSelected: #45fc1c;
+  --colorTextHover: #45fc1c;
+  --colorBackgroundHover: #38d718;
+}
+[themecolor="blue"] {
+  --colorBackground: #1c76fc;
+  --colorTextSelected: #1c76fc;
+  --colorTextHover: #1c76fc;
+  --colorBackgroundHover: #1864d7;
+}
+[themecolor="purple"] {
+  --colorBackground: #c81cfc;
+  --colorTextSelected: #c81cfc;
+  --colorTextHover: #c81cfc;
+  --colorBackgroundHover: #aa18d7;
+}
+
+body {
+  background: #252525;
+  margin: 0;
+  font-family: "Poppins";
+}
+.ant-layout .ant-layout-header {
+  width: 1px;
+  height: 1px;
+  margin-left: 920px;
+  margin-top: -70px;
+  display: inline-block;
+  padding-left: 1px;
+  padding-top: -20px;
+  margin-bottom: 60px;
+}
+
+.ant-menu-dark {
+  background-color: #3c3e3e;
+}
+.ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: #1c1b1b;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+}
+header a {
+  background-color: #000000;
+  text-decoration: none;
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+}

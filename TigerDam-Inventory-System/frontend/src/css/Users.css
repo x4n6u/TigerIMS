@@ -1,0 +1,35 @@
+.Users_Background {
+  background-color: var(--modeBackground);
+  height: auto;
+}
+.Users_Content {
+  margin: 24px;
+  background-color: transparent;
+}
+.Users_TopBox {
+  background-color: var(--modeIsland);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 1px 5px var(--colorTextSelected);
+}
+.Users_List {
+  background-color: transparent;
+}
+.Users_Card {
+  border-radius: 5%;
+  float: left;
+  margin-right: 1.5%;
+}
+.Users_Card:hover {
+  border-radius: 5%;
+  float: left;
+  margin-right: 1.5%;
+  box-shadow: 2px 2px 7px var(--colorTextSelected);
+}
+.Users_Meta {
+  padding: 5%;
+}
+.Users_CreateButton {
+  display: flex;
+  background-color: rgb(255, 60, 60);
+}

@@ -1,0 +1,56 @@
+.Items_Background {
+  background-color: var(--modeBackground);
+  height: auto;
+}
+.Items_Content {
+  margin: 24px;
+  background-color: transparent;
+}
+.Items_TopBox {
+  background-color: var(--modeIsland);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px var(--colorTextSelected);
+}
+.Items_SearchBar {
+  display: block;
+  width: 50%;
+  background: var(--modeTable);
+}
+.Items_SearchBar .label,
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  border: 1px solid var(--colorBackground);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.Items_Button {
+  background-color: var(--colorBackground);
+}
+.Items_CreateButton {
+  margin: 10px;
+  float: right;
+  height: 70%;
+  background-color: var(--colorBackground);
+}
+.Items_LowFilter {
+  margin: 10px;
+  margin-left: 5px;
+  float: right;
+  height: 38px;
+  width: 65%;
+}
+.Items_List {
+  background-color: var(--modeIsland);
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px var(--colorTextSelected);
+}
+.ant-input {
+  border-color: var(--colorBackground);
+}
+.ant-btn-primary {
+  background-color: var(--colorBackground);
+}

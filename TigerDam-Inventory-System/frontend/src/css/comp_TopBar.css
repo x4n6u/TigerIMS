@@ -1,0 +1,46 @@
+nav {
+  justify-content: space-between;
+  background-color: var(--colorBackground);
+  height: 80px;
+}
+.comp_TopBar_usLogo {
+  float: left;
+  height: 85%;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.ant-menu-horizontal {
+  line-height: 80px;
+}
+.ant-menu-item {
+  padding-inline: 40px;
+  transition: none;
+}
+.comp_TopBar_menu_left {
+  float: left;
+}
+.comp_TopBar_menu_right {
+  float: right;
+  margin-right: 2%;
+  transition: none;
+}
+.trans {
+  transition: 0.3s;
+}
+.comp_TopBar_link {
+  font-family: inherit;
+  color: black;
+}
+.comp_TopBar_link:hover {
+  font-family: inherit;
+  color: rgb(82, 87, 86);
+}
+.ant-menu-overflow-item.ant-menu-item {
+  border-radius: 0%;
+}
+.ant-menu-overflow-item.ant-menu-item:hover {
+  background-color: var(--colorBackgroundHover);
+}
+.ant-switch.ant-switch-checked {
+  background: var(--modeIsland);
+}

@@ -1,0 +1,42 @@
+.Options_Background {
+  background-color: var(--modeBackground);
+  height: auto;
+}
+.Options_Content {
+  margin: 24px;
+  background-color: transparent;
+}
+.Options_TopBox {
+  background-color: var(--modeIsland);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px var(--colorTextSelected);
+}
+.Options_Button {
+  background-color: var(--colorBackground);
+  margin-right: 5%;
+}
+.Option_Default {
+  background-color: #fc771c;
+  margin: 2px;
+}
+.Option_Red {
+  background-color: #fc1c1c;
+  margin: 2px;
+}
+.Option_Yellow {
+  background-color: #fce91c;
+  margin: 2px;
+}
+.Option_Green {
+  background-color: #45fc1c;
+  margin: 2px;
+}
+.Option_Blue {
+  background-color: #1c76fc;
+  margin: 2px;
+}
+.Option_Purple {
+  background-color: #c81cfc;
+  margin: 2px;
+}

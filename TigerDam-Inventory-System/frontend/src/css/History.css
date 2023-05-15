@@ -1,0 +1,16 @@
+/* .History_Background {
+  background-color: #242525;
+  height: auto;
+}
+.History_Content {
+  margin: 24px;
+  background-color: transparent;
+}
+.History_TopBox {
+  background-color: #3c3e3e;
+  padding: 20px;
+  margin-bottom: 20px;
+} */
+.Views_Button {
+  background-color: var(--colorBackground);
+}

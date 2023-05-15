@@ -1,0 +1,35 @@
+.ant-layout .ant-layout-sider {
+  background-color: var(--modeIsland);
+  box-shadow: -3px 4px 9px var(--colorTextSelected);
+}
+
+.ant-layout .ant-layout-sider-trigger {
+  background-color: var(--modeIsland);
+}
+.ant-layout .ant-menu-item {
+  font-size: large;
+}
+.ant-layout .ant-menu-item:hover {
+  background-color: var(--colorBackground);
+}
+.ant-layout .ant-menu-item-selected {
+  background-color: var(--colorBackground);
+}
+.SideBar_Link {
+  color: var(--modeText);
+}
+.SideBar_Link:hover {
+  color: var(--modeText);
+}
+
+.SideBar_Menu {
+  background-color: var(--modeIsland);
+  color: var(--modeText);
+}
+
+span.anticon.anticon-left {
+  color: var(--modeText);
+}
+span.anticon.anticon-right {
+  color: var(--modeText);
+}

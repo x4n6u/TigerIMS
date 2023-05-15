@@ -1,0 +1,109 @@
+.Dashboard_Background {
+  background-color: var(--modeBackground);
+  height: auto;
+}
+
+.Dashboard_Content {
+  margin: 24px;
+  background-color: transparent;
+}
+.Dashboard_TopBox {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.Dashboard_Col {
+  padding: 10px;
+  display: block;
+}
+
+.Dashboard_Small {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--modeModule);
+  padding: 1px;
+  border-color: var(--modeModule);
+  border-radius: 0%;
+  height: 300px;
+  box-shadow: 2px 2px 5px var(--colorTextSelected);
+}
+.Dashboard_Mid {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--modeModule);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  border-color: var(--modeModule);
+  border-radius: 0%;
+  height: 400px;
+  box-shadow: 2px 2px 5px var(--colorTextSelected);
+}
+.Dashboard_Label {
+  margin-left: 45%;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+.Dashboard_Table_Items {
+  margin-top: 5px;
+}
+
+.Dashboard_Lists {
+  background-color: transparent;
+}
+.ant-card .ant-card-body {
+  padding: 5px;
+  height: 100%;
+}
+.iframe {
+  height: 150%;
+}
+
+.dslw {
+  border: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.ItemsDisplayed-DashBoard {
+  background-color: #183040;
+  overflow: scroll;
+  height: 37.91982665222102vh;
+  margin-top: -1.0834236186348862vh;
+  overflow-x: hidden;
+}
+.FUIStockTitle-DashBoard {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 260px;
+}
+.LowStockTitle-DashBoard {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 320px;
+}
+
+.itemDetails-DashBoard {
+  background-color: white;
+  display: flex;
+}
+.itemsDisplayed-DashBoard {
+  flex: 1;
+  margin-left: 95px;
+}
+.splitter-DashBoard {
+  background-color: #183040;
+  padding: 5px;
+}
+
+#light .Dashboard_Background {
+  background-color: #ffffff;
+}
+
+#dark {
+  background-color: black;
+}
